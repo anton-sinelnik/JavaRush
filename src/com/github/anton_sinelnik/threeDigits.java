@@ -1,5 +1,6 @@
 package com.github.anton_sinelnik;
 
+
 import java.util.Scanner;
 
 /** Ввести с клавиатуры три целых числа. Определить, есть ли среди них хотя бы одна пара равных между собой чисел.
