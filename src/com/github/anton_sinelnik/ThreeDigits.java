@@ -8,7 +8,7 @@ import java.util.Scanner;
  *  то вывести все три.
  */
 
-public class threeDigits {
+public class ThreeDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("введи три числа");
