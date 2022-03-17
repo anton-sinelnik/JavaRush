@@ -9,14 +9,15 @@ import java.util.Scanner;
 
 public class InfinityLoop {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        while (true) {
-            System.out.println("Введи строку. для выхода введи <enough>");
-            String s = sc.nextLine();
-
+        System.out.println("Введи строку. для выхода введи <enough>");
+        try (Scanner sc = new Scanner(System.in)) {
+             while (true) {
+             String s = sc.nextLine();
              if (s.equals("enough")) {
-                break;
-            } System.out.println("вы ввели" + s);
+             break;
+             }
+              System.out.println("вы ввели " + s);
+            }
         }
     }
 }
